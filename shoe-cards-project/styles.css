@@ -1,82 +1,95 @@
-/* Reset */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* Body */
 body {
-  font-family: 'Poppins', sans-serif;
-  background: #f1f1f1;
+  font-family: 'Roboto', sans-serif;
+  background-color: #d9e2e8;
 }
 
-/* Container */
 .container {
-  width: 350px;
+  max-width: 700px;
   margin: 100px auto;
+  padding: 0 20px;
 }
 
 /* Card */
 .card {
-  background: #ffffff;
-  border-radius: 8px;
-  overflow: hidden;
-  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
+  background-color: #fff;
+  margin: 25px 0;
+  padding: 40px 40px;
+  border-radius: 12px;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.08);
+  background-repeat: no-repeat;
+  background-position: right 40px center;
+  background-size: 220px;
 }
 
-/* Image */
-.card img {
-  width: 100%;
-  display: block;
-}
-
-/* Card Body */
-.card-body {
-  padding: 20px;
-  text-align: center;
-}
-
-/* Title */
-.card-body h2 {
-  margin-bottom: 10px;
-  font-weight: 600;
-}
-
-/* Paragraph */
-.card-body p {
-  font-size: 14px;
+/* Headings */
+.card h2 {
+  font-size: 30px;
   margin-bottom: 15px;
-  color: #555;
 }
 
-/* Price */
-.price {
+.card p {
   font-size: 20px;
-  font-weight: 700;
-  margin-bottom: 15px;
+  font-weight: 500;
+  color: #333;
+  margin-bottom: 25px;
 }
 
-/* Button */
-.card-body button {
-  width: 100%;
-  padding: 10px;
-  border: none;
-  background: linear-gradient(
-    90deg,
-    rgba(242, 132, 62, 1) 21%,
-    rgba(239, 111, 69, 1) 61%
-  );
+/* Buttons */
+.card a {
+  display: inline-block;
+  text-decoration: none;
   color: #fff;
-  cursor: pointer;
-  border-radius: 4px;
+  padding: 12px 25px;
+  border-radius: 8px;
+  font-size: 18px;
+  transition: 0.3s ease;
 }
 
-/* Button Hover */
-.card-body button:hover {
-  background: linear-gradient(
-    90deg,
-    rgba(232, 132, 62, 1) 21%,
-    rgba(229, 111, 69, 1) 61%
-  );
+.card a:hover {
+  opacity: 0.9;
+}
+
+/* Sporty */
+.card-sporty {
+  background-image: url('./images/sporty.png');
+}
+
+.card-sporty h2 {
+  color: #e04553;
+}
+
+.card-sporty a {
+  background-color: #e04553;
+}
+
+/* Casual */
+.card-casual {
+  background-image: url('./images/casual.png');
+}
+
+.card-casual h2 {
+  color: #0d4ba3;
+}
+
+.card-casual a {
+  background-color: #0d4ba3;
+}
+
+/* Formal */
+.card-formal {
+  background-image: url('./images/formal.png');
+}
+
+.card-formal h2 {
+  color: #512b22;
+}
+
+.card-formal a {
+  background-color: #512b22;
 }
