@@ -10,7 +10,7 @@ body {
 }
 
 .container {
-  max-width: 700px;
+  max-width: 600px;
   margin: 100px auto;
   padding: 0 20px;
 }
@@ -18,78 +18,70 @@ body {
 /* Card */
 .card {
   background-color: #fff;
-  margin: 25px 0;
-  padding: 40px 40px;
-  border-radius: 12px;
-  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.08);
-  background-repeat: no-repeat;
-  background-position: right 40px center;
-  background-size: 220px;
+  margin: 20px 0;
+  padding: 20px 20px 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-/* Headings */
 .card h2 {
-  font-size: 30px;
-  margin-bottom: 15px;
+  font-size: 27px;
+  margin-bottom: 20px;
 }
 
 .card p {
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 500;
   color: #333;
-  margin-bottom: 25px;
+  margin-bottom: 30px;
 }
 
-/* Buttons */
-.card a {
-  display: inline-block;
-  text-decoration: none;
-  color: #fff;
-  padding: 12px 25px;
-  border-radius: 8px;
-  font-size: 18px;
-  transition: 0.3s ease;
-}
-
-.card a:hover {
-  opacity: 0.9;
-}
-
-/* Sporty */
-.card-sporty {
-  background-image: url('./images/sporty.png');
-}
-
+/* Heading Colors */
 .card-sporty h2 {
   color: #e04553;
-}
-
-.card-sporty a {
-  background-color: #e04553;
-}
-
-/* Casual */
-.card-casual {
-  background-image: url('./images/casual.png');
 }
 
 .card-casual h2 {
   color: #0d4ba3;
 }
 
-.card-casual a {
-  background-color: #0d4ba3;
-}
-
-/* Formal */
-.card-formal {
-  background-image: url('./images/formal.png');
-}
-
 .card-formal h2 {
   color: #512b22;
 }
 
+.card a {
+  text-decoration: none;
+  color: #fff;
+  background-color: #333;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 18px;
+}
+
+.card a:hover {
+  opacity: 0.9;
+}
+
+/* Link Colors */
+.card-sporty a {
+  background-color: #e04553;
+}
+
+.card-casual a {
+  background-color: #0d4ba3;
+}
+
 .card-formal a {
   background-color: #512b22;
+}
+
+/* Background Images */
+.card-sporty {
+  background: #fff url('./images/sporty.png') no-repeat center right/200px;
+}
+.card-casual {
+  background: #fff url('./images/casual.png') no-repeat center right/200px;
+}
+.card-formal {
+  background: #fff url('./images/formal.png') no-repeat center right/200px;
 }
