@@ -19,7 +19,7 @@ body {
 .card {
   background-color: #fff;
   margin: 20px 0;
-  padding: 20px 20px 30px;
+  padding: 40px 220px 40px 40px;
   border-radius: 10px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
@@ -76,12 +76,21 @@ body {
 }
 
 /* Background Images */
+
+.card {
+  background-repeat: no-repeat;
+  background-position: right 20px center;
+  background-size: 200px;
+}
+
 .card-sporty {
-  background: #fff url('./images/sporty.png') no-repeat center right/200px;
+  background-image: url('./images/sporty.png');
 }
+
 .card-casual {
-  background: #fff url('./images/casual.png') no-repeat center right/200px;
+  background-image: url('./images/casual.png');
 }
+
 .card-formal {
-  background: #fff url('./images/formal.png') no-repeat center right/200px;
+  background-image: url('./images/formal.png');
 }
