@@ -1,11 +1,17 @@
+<<<<<<< HEAD
+=======
 /* Body Styling */
+>>>>>>> df5cc7d4f27347a041acc16bcea2a2f7f93db1b1
 body {
   font-family: 'Lato', sans-serif;
   font-size: 18px;
   line-height: 1.6;
 }
 
+<<<<<<< HEAD
+=======
 /* Header */
+>>>>>>> df5cc7d4f27347a041acc16bcea2a2f7f93db1b1
 .header {
   background-color: #5e175b;
   color: #fff;
@@ -17,7 +23,10 @@ body {
   text-indent: 20px;
 }
 
+<<<<<<< HEAD
+=======
 /* Links */
+>>>>>>> df5cc7d4f27347a041acc16bcea2a2f7f93db1b1
 a {
   text-decoration: none;
   color: #333;
@@ -31,20 +40,29 @@ a:active {
   color: red;
 }
 
+<<<<<<< HEAD
+=======
 /* Lists */
+>>>>>>> df5cc7d4f27347a041acc16bcea2a2f7f93db1b1
 ul {
   list-style: none;
   padding: 0;
 }
 
+<<<<<<< HEAD
+=======
 /* Main Menu */
+>>>>>>> df5cc7d4f27347a041acc16bcea2a2f7f93db1b1
 .main-menu {
   background-color: #f4f4f4;
   text-transform: uppercase;
   text-indent: 10px;
 }
 
+<<<<<<< HEAD
+=======
 /* Lead Paragraph */
+>>>>>>> df5cc7d4f27347a041acc16bcea2a2f7f93db1b1
 .lead {
   font-size: 20px;
   color: rebeccapurple;

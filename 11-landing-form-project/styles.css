@@ -1,0 +1,111 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+body{
+font-family:'Poppins',sans-serif;
+color:white;
+background:linear-gradient(180deg,#ff2e2e,#6c1cff);
+min-height:100vh;
+}
+
+.container{
+max-width:1100px;
+margin:auto;
+padding:20px;
+}
+
+.header{
+padding:20px 0;
+}
+
+.header-flex{
+display:flex;
+justify-content:space-between;
+align-items:center;
+}
+
+.logo{
+font-weight:700;
+font-size:28px;
+}
+
+.contact{
+display:flex;
+gap:20px;
+font-size:14px;
+}
+
+.hero{
+margin-top:80px;
+}
+
+.hero-grid{
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:60px;
+align-items:center;
+}
+
+.form-card{
+background:rgba(255,255,255,0.1);
+padding:30px;
+border-radius:10px;
+}
+
+.form-card label{
+display:block;
+margin-bottom:5px;
+font-size:14px;
+}
+
+.form-card input,
+.form-card textarea{
+width:100%;
+padding:12px;
+margin-bottom:15px;
+border:none;
+border-radius:5px;
+background:rgba(255,255,255,0.2);
+color:white;
+}
+
+.form-card input::placeholder,
+.form-card textarea::placeholder{
+color:#eee;
+}
+
+.form-card button{
+width:100%;
+padding:14px;
+border:none;
+border-radius:30px;
+background:#ff3b3b;
+color:white;
+font-size:16px;
+cursor:pointer;
+}
+
+.form-card button:hover{
+opacity:0.9;
+}
+
+.hero-text h1{
+font-size:42px;
+margin-bottom:20px;
+}
+
+.hero-text p{
+line-height:1.7;
+opacity:0.9;
+}
+
+@media(max-width:900px){
+
+.hero-grid{
+grid-template-columns:1fr;
+}
+
+}

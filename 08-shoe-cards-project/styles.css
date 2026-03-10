@@ -1,4 +1,88 @@
 * {
+<<<<<<< HEAD
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #cfd8dc;
+  padding: 40px 20px;
+}
+
+.container {
+  max-width: 700px;
+  margin: auto;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #eee;
+  border-radius: 10px;
+  padding: 20px 25px;
+  margin-bottom: 20px;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.15);
+}
+
+.card-text h2 {
+  margin-bottom: 8px;
+}
+
+.card-text p {
+  margin-bottom: 12px;
+  font-weight: bold;
+}
+
+.card img {
+  width: 160px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 16px;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.red {
+  color: #c62828;
+}
+
+.red-btn {
+  background: #c62828;
+}
+
+.blue {
+  color: #1e5aa8;
+}
+
+.blue-btn {
+  background: #1e5aa8;
+}
+
+.brown {
+  color: #4e342e;
+}
+
+.brown-btn {
+  background: #4e342e;
+}
+
+@media (max-width: 600px) {
+  .card {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .card img {
+    margin-top: 15px;
+  }
+}
+=======
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -94,3 +178,4 @@ body {
 .card-formal {
   background-image: url('./images/formal.png');
 }
+>>>>>>> df5cc7d4f27347a041acc16bcea2a2f7f93db1b1
