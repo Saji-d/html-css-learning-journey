@@ -1,40 +1,33 @@
-# HTML & CSS Learning Journey
+## HTML & CSS Learning Journey
 
-This repository contains my practice projects while learning **Modern HTML & CSS** through Udemy during my **BSS Software Engineering Internship**.
-
-Each project focuses on frontend fundamentals such as layouts, forms, Flexbox, UI components, and page interactions.
-
-All projects are automatically deployed using **Netlify Continuous Deployment**.
+This repository contains projects built while learning modern HTML and CSS.  
+These projects are part of my **BSS Internship Learning Journey** where I practice building real UI layouts and deploying them using Netlify.
 
 ---
 
 ## Featured Projects
 
-| Project | Live Demo | Source Code |
-|-------|-------|-------|
-| Shoe Cards UI | [Live](https://sajid-html-css-projects.netlify.app/08-shoe-cards-project/) | [Code](https://github.com/Saji-d/html-css-learning-journey/tree/main/08-shoe-cards-project) |
-| Flexbox Pricing Grid | [Live](https://sajid-html-css-projects.netlify.app/10-flexbox-pricing-grid/) | [Code](https://github.com/Saji-d/html-css-learning-journey/tree/main/10-flexbox-pricing-grid) |
-| Landing Form Page | [Live](https://sajid-html-css-projects.netlify.app/11-landing-form-project/) | [Code](https://github.com/Saji-d/html-css-learning-journey/tree/main/11-landing-form-project) |
-| Lumina Creative Website | [Live](https://sajid-html-css-projects.netlify.app/12-lumina-creative-website/) | [Code](https://github.com/Saji-d/html-css-learning-journey/tree/main/12-lumina-creative-website) |
+| Project                       | Live Demo                                                                                         | Source Code                                                                                                        |
+| ----------------------------- | ------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------ |
+| Shoe Cards Project            | [Live](https://sajid-html-css-projects.netlify.app/08-shoe-cards-project/)                        | [Code](https://github.com/Saji-d/html-css-learning-journey/tree/main/08-shoe-cards-project)                        |
+| Flexbox Pricing Grid          | [Live](https://sajid-html-css-projects.netlify.app/10-flexbox-pricing-grid/)                      | [Code](https://github.com/Saji-d/html-css-learning-journey/tree/main/10-flexbox-pricing-grid)                      |
+| HTML Form Project             | [Live](https://sajid-html-css-projects.netlify.app/11-html-form-project/)                         | [Code](https://github.com/Saji-d/html-css-learning-journey/tree/main/11-html-form-project)                         |
+| Lumina Creative Website       | [Live](https://sajid-html-css-projects.netlify.app/12-lumina-creative-website/)                   | [Code](https://github.com/Saji-d/html-css-learning-journey/tree/main/12-lumina-creative-website)                   |
 | Smooth Scroll & CSS Selectors | [Live](https://sajid-html-css-projects.netlify.app/13-smooth-scroll-and-css-selectors-challenge/) | [Code](https://github.com/Saji-d/html-css-learning-journey/tree/main/13-smooth-scroll-and-css-selectors-challenge) |
+| CSS Grid Challenge 1          | [Live](https://sajid-html-css-projects.netlify.app/14-css-grid-challenge-1/)                      | [Code](https://github.com/Saji-d/html-css-learning-journey/tree/main/14-css-grid-challenge-1)                      |
+| Presentation Website          | [Live](https://sajid-html-css-projects.netlify.app/16-presentation-website/)                      | [Code](https://github.com/Saji-d/html-css-learning-journey/tree/main/16-presentation-website)                      |
 
 ---
 
-## Tech Stack
+## Technologies Used
 
 - HTML5
 - CSS3
 - Flexbox
+- CSS Grid
 - Responsive Design
+- Git & GitHub
 - Netlify Deployment
-
----
-
-## Live Project Hub
-
-All projects are deployed here:
-
-https://sajid-html-css-projects.netlify.app
 
 ---
 
@@ -42,7 +35,4 @@ https://sajid-html-css-projects.netlify.app
 
 **Sajidur Rahman**
 
-Frontend Developer (Learning Phase)
-
-GitHub: https://github.com/Saji-d  
 Email: sajidsajidurrahman99@gmail.com
