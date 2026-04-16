@@ -51,3 +51,18 @@ Concepts covered include:
 - JavaScript (basic)
 - Git & GitHub
 - Netlify Deployment
+  
+---
+
+# Deployment
+
+All major projects are deployed using **Netlify** with continuous deployment from GitHub.
+
+Each project is deployed separately and served as individual live demos.
+
+---
+
+# Author
+
+**Sajidur Rahman Sajid**  
+BSS Trainee Software Engineer (Internship)
