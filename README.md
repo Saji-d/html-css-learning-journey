@@ -1,8 +1,6 @@
 # HTML & CSS Learning Journey
 
-This repository contains all projects I built while completing the course:
-
-**Modern HTML & CSS From The Beginning**
+This repository contains all projects I built while completing the course: **Modern HTML & CSS From The Beginning**
 
 These projects were built during my **BSS Internship learning journey**, where I practiced real-world frontend development concepts and deployed projects using **Netlify continuous deployment**.
 
@@ -53,14 +51,3 @@ Concepts covered include:
 - JavaScript (basic)
 - Git & GitHub
 - Netlify Deployment
-
----
-
-# Author
-
-**Sajidur Rahman**
-
-Frontend Developer (Learning Phase)
-
-Email: sajidsajidurrahman99@gmail.com  
-GitHub: https://github.com/Saji-d
